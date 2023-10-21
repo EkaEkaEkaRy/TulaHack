@@ -6,6 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="file1.css" rel="stylesheet">
     <title>Document</title>
+    <script src="file1.js"></script>
+    
 </head>
 
 <body>
@@ -17,9 +19,9 @@
         </div>
     
         <div class="frame3 right">
-            <input class="frame2" type="mail" name="mail" placeholder="Почта" size="25" />
-            <input class="frame2" type="password" name="password" placeholder="Пароль" size="25" />
-            <input class="but" type="submit" value="Войти" onclick="javascript:location.href='main.html'"/>
+            <input class="frame2" type="mail" id="mail" placeholder="Почта" size="25" />
+            <input class="frame2" type="password" id="password" placeholder="Пароль" size="25" />
+            <input class="but" type="submit" value="Войти" onclick="isEmail()"/>
             <a class="lin" href="file2.html">Регистрация</a>
         </div>
     </div>
