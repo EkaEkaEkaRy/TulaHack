@@ -6,10 +6,8 @@ body {
 
 .ar {
     width: 30px;
-    position: absolute;
-    display: flex;
-    top: 10px;
-    left: 10px;
+    transform: rotate(180deg);
+    
 }
 
 .tt {
