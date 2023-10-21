@@ -148,5 +148,5 @@ body {
 
 .ar {
     width: 30px;
-
+    transform: rotate(180deg);
 }
