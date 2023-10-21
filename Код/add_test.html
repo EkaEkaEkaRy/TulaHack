@@ -4,8 +4,27 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link href="add_test.css" rel="stylesheet">
+    <script src="add_test.js"></script>
 </head>
 <body>
-    
+    <img class="ar" src="arrow.png" onclick="location.href='main.html'">
+    <div class="tt">Предварительный просмотр</div>
+
+    <input class="input_qw" style="margin-top: 50px;" type="text" id="test_name" placeholder="Название теста">
+    <div class="tabl">
+        <div><input class="input_qw" type="text" id="question" placeholder="Вопрос"></div>
+        <div><td>
+            <input class="input_ans" type="text" id="answer" placeholder="Правильный вариант ответа">
+            <input class="input_ans" type="text" id="answer" placeholder="Другой вариант ответа">
+        </td></div>
+        <div><td>
+            <input class="input_ans" type="text" id="answer" placeholder="Другой вариант ответа">
+            <input class="input_ans" type="text" id="answer" placeholder="Другой вариант ответа">
+        </td></div>
+    </div>
+
+    <div id="newEl"></div>
+    <input class="but" type="button" id="button" value="Добавить вопрос" onclick="add()">
 </body>
 </html>
