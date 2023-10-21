@@ -1,6 +1,6 @@
 function add() {
     if (num > 20) {alert("Нельзя добавитить больше 20 вопросов")}
-    else if (isEmpty(document.getElementById("question").value) || isEmpty(document.getElementById("question").value)) {alert("Есть пустые поля"); }
+    else if (isEmpty(document.getElementById("answer").value) || isEmpty(document.getElementById("question").value)) {alert("Есть пустые поля"); }
     else {
     num += 1;
     var el, s;
@@ -33,6 +33,6 @@ function clik(el){
 
 
  function toSee() {
-    if (isEmpty(document.getElementById("question").value) || isEmpty(document.getElementById("question").value)  || isEmpty(document.getElementById("test_name").value)) {alert("Есть пустые поля"); }
+    if (isEmpty(document.getElementById("answer").value) || isEmpty(document.getElementById("question").value)  || isEmpty(document.getElementById("test_name").value)) {alert("Есть пустые поля"); }
     else return location.href="see_test.html"
  }
