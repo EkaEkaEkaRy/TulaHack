@@ -1,5 +1,6 @@
 function add() {
     if (num > 20) {alert("Нельзя добавитить больше 20 вопросов")}
+    else if (isEmpty(document.getElementById("question").value) || isEmpty(document.getElementById("question").value)) {alert("Есть пустые поля"); }
     else {
     num += 1;
     var el, s;
@@ -23,5 +24,9 @@ function add() {
 function clik(el){
     el.parentNode.removeChild(el);
  };
+
+ function isEmpty(str){
+    return (str == null) || (str.length == 0);
+}
 
  var num = 0;
