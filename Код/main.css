@@ -8,7 +8,7 @@ body {
     height: 50px;
     width: 100%;
     position: fixed;
-    border: 3px;
+    border: 3px black solid;
     background-color: #C6C1E6;
     top:0;
 }
@@ -40,6 +40,7 @@ body {
     color:black;
     width: 250px;
     height: 100%;
+    border: 4px black solid;
   }
 
   a {
@@ -51,6 +52,7 @@ body {
     font-family: Raleway; 
     text-decoration: none;
     color: black;
+    border: 4px black solid;
   }
 
   .ch {
@@ -60,6 +62,7 @@ body {
     text-align: center;
     background-color: #F7E9A0;
     font-family: Raleway; 
+    border: 4px black solid;
   }
 
   .srh {
@@ -68,6 +71,7 @@ body {
     font-size: 20px;
     font-family: Raleway; 
     margin-top: 10px;
+    border: 2px black solid;
   }
 
 .im {
