@@ -15,3 +15,4 @@ function isEmail() {
 function isEmpty(str){
     return (str == null) || (str.length == 0);
 }
+

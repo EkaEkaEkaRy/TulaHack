@@ -77,3 +77,14 @@ body {
     right: 2px;
     bottom: 2px;
 }
+
+
+.but {
+  background: #faa7a7;
+  line-height: 2;
+  border-radius: 20px;
+  font-size: 20px;
+  border: 4px black solid;
+  padding: 0.5rem 1rem;
+  margin-top: 50px;
+}
