@@ -16,3 +16,7 @@ function isEmpty(str){
     return (str == null) || (str.length == 0);
 }
 
+function toChoice() {
+    if (isEmpty(document.getElementById("track").value)) {alert("Поле пустое"); }
+    else {return location.href="choice.html"}
+}
