@@ -9,7 +9,8 @@ body {
     width: 100%;
     position: fixed;
     border: 3px;
-    color: #C6C1E6;
+    background-color: #C6C1E6;
+    top:0;
 }
 
 .content {
@@ -25,7 +26,7 @@ body {
   }
 
 .right {
-    position: absolute;
+    position: fixed;
     display: flex;
     flex-direction: column;
     justify-self: end;
@@ -64,4 +65,13 @@ body {
     height: 25px;
     font-size: 20px;
     font-family: Raleway; 
+    margin-top: 10px;
   }
+
+.im {
+    width: 30px;
+    position: fixed;
+    display: flex;
+    right: 2px;
+    bottom: 2px;
+}
