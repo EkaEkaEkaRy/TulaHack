@@ -28,7 +28,6 @@ body {
     font-size: 20px;
     padding: 0.5rem 1rem;
     font-family: Raleway; 
-    text-decoration: none;
     color: black;
 }
 
@@ -68,4 +67,28 @@ body {
     font-size: 20px; 
     font-family: Raleway; 
     margin-bottom: 10px;
+}
+
+
+.content {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    justify-items: center;
+}
+
+.center {
+    margin-top: 20px;
+    position: absolute;
+    display: flex;
+    justify-self: center;
+}
+
+.but2 {
+    background: #C6C1E6; 
+    border-radius: 20px; 
+    border: 3px black solid;
+    font-size: 20px;
+    padding: 0.5rem 1rem;
+    font-family: Raleway; 
+    color: black;
 }

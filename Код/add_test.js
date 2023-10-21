@@ -1,4 +1,7 @@
 function add() {
+    if (num > 20) {alert("Нельзя добавитить больше 20 вопросов")}
+    else {
+    num += 1;
     var el, s;
     el=document.getElementById("newEl");
     s=el.innerHTML;
@@ -14,9 +17,11 @@ function add() {
     </td></div>
 </div>`;
     el.innerHTML=s;
- 
+    }
  };
  
 function clik(el){
     el.parentNode.removeChild(el);
  };
+
+ var num = 0;
