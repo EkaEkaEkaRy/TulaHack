@@ -5,6 +5,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="file2.css" />
     <title>Document</title>
+
+    <script src="file2.js"></script>
+
   </head>
   <body>
     <div class = "logo">
@@ -27,7 +30,7 @@
           <input
             class="login_input"
             type="password"
-            name="password"
+            id="password1"
             placeholder=" Пароль"
           />
         </p>
@@ -35,12 +38,12 @@
           <input
             class="login_input"
             type="password"
-            name="password"
+            id="password2"
             placeholder=" Повторите пароль"
           />
         </p>
         <p>
-          <input class="login_button" type="submit" value="Создать аккаунт!" />
+          <input class="login_button" type="submit" value="Создать аккаунт!" onclick="tomain()"/>
         </p>
       </div>
     </div>
