@@ -18,5 +18,6 @@ function isEmpty(str){
 
 function toChoice() {
     if (isEmpty(document.getElementById("track").value)) {alert("Поле пустое"); }
+    else if (!Number.isInteger(document.getElementById("track").value)) {alert("Неверный формат ввода"); }
     else {return location.href="choice.html"}
 }
