@@ -1,0 +1,28 @@
+body {
+    background-color: #BFDEEE;
+    margin: 0;
+    padding: 1rem;
+}
+
+.ar {
+    width: 30px;
+    position: absolute;
+    display: flex;
+    top: 10px;
+    left: 10px;
+}
+
+.but {
+    background: #F7E9A0; 
+    border-radius: 20px; 
+    border: 3px black solid;
+    font-size: 20px;
+    padding: 0.5rem 1rem;
+    font-family: Raleway; 
+    color: black;
+    
+    position: absolute;
+    display: flex;
+    top: 10px;
+    right: 10px;
+}

@@ -30,3 +30,9 @@ function clik(el){
 }
 
  var num = 0;
+
+
+ function toSee() {
+    if (isEmpty(document.getElementById("question").value) || isEmpty(document.getElementById("question").value)  || isEmpty(document.getElementById("test_name").value)) {alert("Есть пустые поля"); }
+    else return location.href="see_test.html"
+ }
