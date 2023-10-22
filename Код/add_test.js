@@ -1,8 +1,9 @@
 function add() {
     if (num > 20) {alert("Нельзя добавитить больше 20 вопросов")}
-    else if (isEmpty(document.getElementById("answer").value) || isEmpty(document.getElementById("question").value)) {alert("Есть пустые поля"); }
+    else if (isEmpty(document.getElementById("time").value) || isEmpty(document.getElementById("answer4").value) || isEmpty(document.getElementById("answer3").value) || isEmpty(document.getElementById("answer2").value) || isEmpty(document.getElementById("answer1").value) || isEmpty(document.getElementById("question").value)) {alert("Есть пустые поля"); }
     else {
     num += 1;
+
     var el, s;
     el=document.getElementById("newEl");
     s=el.innerHTML;
@@ -30,9 +31,23 @@ function clik(el){
 }
 
  var num = 0;
-
+var mas = []
 
  function toSee() {
-    if (isEmpty(document.getElementById("answer").value) || isEmpty(document.getElementById("question").value)  || isEmpty(document.getElementById("test_name").value)) {alert("Есть пустые поля"); }
-    else return location.href="see_test.html"
+    if (isEmpty(document.getElementById("time").value) || isEmpty(document.getElementById("answer4").value) || isEmpty(document.getElementById("answer3").value) || isEmpty(document.getElementById("answer2").value) || isEmpty(document.getElementById("answer1").value) || isEmpty(document.getElementById("question").value)  || isEmpty(document.getElementById("test_name").value)) {alert("Есть пустые поля"); }
+    else {
+        mas.push(document.getElementById("question").value)
+        mas.push(document.getElementById("time").value)
+        mas.push(document.getElementById("answer1").value)
+        mas.push(document.getElementById("answer2").value)
+        mas.push(document.getElementById("answer3").value)
+        mas.push(document.getElementById("answer4").value)
+        
+        return location.href="see_test.html"
+    }
+    
  }
+
+
+
+ 
